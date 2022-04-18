@@ -1,4 +1,4 @@
 rootProject.name = 'APT'
-include 'lombok-core'
+include 'apt-core'
 include 'example'
 

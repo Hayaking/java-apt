@@ -22,9 +22,9 @@ repositories {
 
 dependencies {
 
-    implementation project(':lombok-core')
-    annotationProcessor project(':lombok-core')
-    testAnnotationProcessor project(':lombok-core')
+    implementation project(':apt-core')
+    annotationProcessor project(':apt-core')
+    testAnnotationProcessor project(':apt-core')
     // https://mvnrepository.com/artifact/com.alibaba/fastjson
     implementation 'com.alibaba:fastjson:1.2.80'
 
